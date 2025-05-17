@@ -18,7 +18,6 @@ Oferecer uma ferramenta simples e funcional que permita:
 - **Swing + MigLayout** (para interface gráfica)
 - **FlatLaf** (tema moderno para Swing)
 - **SQLite** (banco de dados local embutido)
-- **Launch4j (opcional)** para empacotamento em `.exe`
 
 ---
 
@@ -41,25 +40,12 @@ O sistema já possui usuários padrão com diferentes permissões de acesso:
 
 ### Passo a passo:
 1. Extraia a pasta do sistema para qualquer local
-2. Dê dois cliques no arquivo `iniciar.bat`
+2. Dê dois cliques no arquivo `controle-estoque.jar`
    - ou abra o terminal e execute:
      ```bash
-     java -jar controle-estoque-1.0-SNAPSHOT-jar-with-dependencies.jar
+     java -jar controle-estoque.jar
      ```
 
-### Estrutura esperada da pasta:
-
-```
-/ControleEstoque
-│
-├─ controle-estoque-1.0-SNAPSHOT-jar-with-dependencies.jar
-├─ iniciar.bat
-├─ estoque.db (será criado automaticamente se não existir)
-├─ imagens/
-│   └─ logo.png
-```
-
----
 
 ## 📌 Observações
 
@@ -71,4 +57,4 @@ O sistema já possui usuários padrão com diferentes permissões de acesso:
 
 ## 👨‍💻 Desenvolvido por
 **Murilo Aparecido de Oliveira**  
-RA: 230122 – Curso de Análise e Desenvolvimento de Sistemas
+RA: 2301222 – Curso de Análise e Desenvolvimento de Sistemas
